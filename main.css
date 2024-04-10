@@ -1,0 +1,75 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #0056b3; /* Azul */
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #0056b3; /* Azul */
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-tile {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-escola {
+    background-color: #fff; /* Branco */
+}
+
+.text-colored {
+    color: #0056b3; /* Azul */
+}
+
+#contato {
+    background-color: #cfe2f3; /* Azul claro */
+}
+
+#professores {
+    background-color: #cfe2f3; /* Azul claro */
+}
+
+#fale-conosco button,
+#professores-mentores button {
+    background-color: #0056b3; /* Azul */
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+.logo-img {
+    width: 150px;
+    height: auto;
+}
+
+.carousel-item img {
+    height: 400px; /* Defina a altura desejada para as imagens */
+    width: auto;
+    object-fit: cover; /* Mantém a proporção da imagem e corta o excesso */
+}
+
